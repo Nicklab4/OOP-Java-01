@@ -3,11 +3,11 @@
 ## Домашнее задание №1
 
 реализованы вспомогательные классы:
-AnimGoing, AnimGoingSwiming, AnimGoingSwimingFlying
+**AnimGoing**, **AnimGoingSwiming**, **AnimGoingSwimingFlying**
 
 классы имеют методы определяющее поведение животных:
-- AnimGoing - going;
-- AnimGoingSwiming - going, swiming;
-- AnimGoingSwimingFlying - going, swiming, flying
+- AnimGoing - **going**;
+- AnimGoingSwiming - **going**, **swiming**;
+- AnimGoingSwimingFlying - **going**, **swiming**, **flying**
 
-В классе Animal добавлен метод propertyOfAnimal, который переопределяется в каждом из классов Dоg, Cat, Duck и реализует вывод информации о поведении каждого животного
+В классе Animal добавлен метод **propertyOfAnimal**, который переопределяется в каждом из классов **Dоg**, **Cat**, **Duck** и реализует вывод информации о поведении каждого животного
