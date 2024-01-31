@@ -2,9 +2,9 @@ package clients;
 
 import java.time.LocalDate;
 
-public class Cat extends Animal{
+public class Cat extends AnimGoing{
 
-    Double discount; //todo напомнить в чём разница Double b Вщг
+    Double discount; //напомнить в чём разница Double b Вщг
 
 
     public Cat(String nameOfAnimal, Owner owner, LocalDate birthDate, Illness illnes) {
@@ -21,6 +21,12 @@ public class Cat extends Animal{
     }
 
     public void meow() {
-        System.out.println(this.nameOfAnimal + " meow");
+        System.out.println(this.getNameOfAnimal() + " meow");
+    }
+
+
+    @Override // перегрузка метода из класса Animal
+    public void propertyOfAnimal(){
+        this.going(); // методы из класса AnimGoing
     }
 }

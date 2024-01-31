@@ -74,4 +74,6 @@ public class Animal{
     public String toString() {
         return String.format("nameOfAnimal = %s, bd = %s, owner = %s, illness = %s,", nameOfAnimal, birthDate, owner, illness);
     }
+
+    public void propertyOfAnimal() {}
 }
