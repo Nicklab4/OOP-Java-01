@@ -1,8 +1,10 @@
 package clients;
 
+import clients.interfaces.IGoable;
+
 import java.time.LocalDate;
 
-public class Cat extends AnimGoing{
+public class Cat extends Animal implements IGoable {
 
     Double discount; //напомнить в чём разница Double b Вщг
 
@@ -24,9 +26,10 @@ public class Cat extends AnimGoing{
         System.out.println(this.getNameOfAnimal() + " meow");
     }
 
-
     @Override // перегрузка метода из класса Animal
     public void propertyOfAnimal(){
-        this.going(); // методы из класса AnimGoing
+        System.out.println("Бегает со скоростью " + this.run() + " м/с");
     }
+
+    public double run() {return 10.0;}
 }

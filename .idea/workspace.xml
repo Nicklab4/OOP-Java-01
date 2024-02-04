@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Seminar 01 v.01">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/AnimGoing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Домашнее задание 01 v.01">
+      <change afterPath="$PROJECT_DIR$/src/clients/VeterinaryClinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clients/interfaces/IFlyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clients/interfaces/IGoable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clients/AnimGoing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clients/AnimGoingSwiming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clients/AnimGoingSwimingFlying.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clients/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clients/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clients/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clients/interfaces/ISwimmable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/interfaces/ISwimmable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +25,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -43,10 +56,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Seminar__02",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="clients" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="clients" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706728650444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Домашнее задание 01 v.01">
+      <option name="closed" value="true" />
+      <created>1706738428211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706738428211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar 01 v.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar 01 v.01" />
+    <MESSAGE value="Домашнее задание 01 v.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 01 v.01" />
   </component>
 </project>
