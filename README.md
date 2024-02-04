@@ -23,9 +23,47 @@
 - **getPersonnel()** - вывести список медперсонала
 - **getAnimals()** - вывести список животных в клинике
 - **medicalProcedures()** - действия персонала
-  
 
+В результате выполнения кода   
+```
+VeterinaryClinic clinic = new VeterinaryClinic();
 
+Animal catty = new clients.Cat("Барсик");
+Dog doggie = new clients.Dog("Шарик");
+Duck duffy = new clients.Duck("ДаффиДак");
+
+catty.propertyOfAnimal();
+duffy.propertyOfAnimal();
+
+List<Animal> animals = new ArrayList<Animal>();
+animals.add(doggie);
+animals.add(catty);
+
+clinic.setAnimals(animals); // Помещаем в класс клиники список животных
+clinic.addAnimal(duffy);    // Добавляем животных по одному
+
+clinic.getAnimals();        // Выводим список животных в клинике
+clinic.getPersonnel();      // Выводим список медперсонала клиники
+
+clinic.medicalProcedures(); // Выполняем медпроцедуры клиники
+```
+будет выведен результат:
+```
+Кошка бегает со скоростью 10.0 м/с
+Утка бегает со скоростью 5.0 м/с
+Утка плавает со скоростью 10.0 м/с
+Утка летает со скоростью 20.0 м/с
+[nameOfAnimal = Шарик, bd = 2024-02-05, owner = clients.Owner@7e6cbb7a, illness = clients.Illness@7c3df479,, nameOfAnimal = Барсик, bd = 2024-02-05, owner = clients.Owner@7106e68e, illness = clients.Illness@7eda2dbb,discount=null}, nameOfAnimal = ДаффиДак, bd = 2024-02-05, owner = clients.Owner@5d099f62, illness = clients.Illness@37f8bb67,]
+[Доктор - Антон Павлович Чехов, Медсестра - Амалия Ивановна]
+Доктор проверяет сотояние животного Шарик
+Доктор проверяет сотояние животного Барсик
+Доктор проверяет сотояние животного ДаффиДак
+Медсестра делает процедуры животному Шарик
+Медсестра делает процедуры животному Барсик
+Медсестра делает процедуры животному ДаффиДак
+
+Process finished with exit code 0
+```
 
 
 ## Домашнее задание №1
