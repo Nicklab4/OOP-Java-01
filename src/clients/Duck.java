@@ -1,10 +1,15 @@
 package clients;
 
-import clients.interfaces.IFlyable;
-import clients.interfaces.IGoable;
-import clients.interfaces.ISwimmable;
+import interfaces.IFlyable;
+import interfaces.IGoable;
+import interfaces.ISwimmable;
 
 public class Duck  extends Animal implements IGoable, ISwimmable, IFlyable {
+
+    public Duck(String nameOfAnimal){
+        super(nameOfAnimal);
+    }
+
     @Override // перегрузка метода из класса Animal
     public void propertyOfAnimal(){
         System.out.println("Бегает со скоростью " + this.run() + " м/с");

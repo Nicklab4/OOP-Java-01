@@ -1,4 +1,4 @@
-package clients.interfaces;
+package interfaces;
 
 public interface IFlyable {
     public double fly();

@@ -1,6 +1,6 @@
 package clients;
 
-import clients.interfaces.IGoable;
+import interfaces.IGoable;
 
 import java.time.LocalDate;
 
@@ -12,6 +12,10 @@ public class Cat extends Animal implements IGoable {
     public Cat(String nameOfAnimal, Owner owner, LocalDate birthDate, Illness illnes) {
         super(nameOfAnimal, owner, birthDate, illnes);
         this.discount = discount;
+    }
+
+    public Cat(String nameOfAnimal){
+        super(nameOfAnimal);
     }
 
     public Cat() {super();

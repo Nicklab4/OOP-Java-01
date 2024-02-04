@@ -1,7 +1,7 @@
 package clients;
 
-import clients.interfaces.IGoable;
-import clients.interfaces.ISwimmable;
+import interfaces.IGoable;
+import interfaces.ISwimmable;
 
 import java.time.LocalDate;
 
@@ -11,7 +11,8 @@ public class Dog extends Animal implements IGoable, ISwimmable {
         super(nameOfAnimal, owner, birthDate, illnes);
     }
 
-    public Dog() {
+    public Dog(String nameOfAnimal){
+        super(nameOfAnimal);
     }
     @Override // перегрузка метода из класса Animal
     public void propertyOfAnimal(){

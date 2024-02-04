@@ -2,7 +2,7 @@ package clients;
 
 import java.time.LocalDate;
 
-public class Animal{
+public abstract class Animal{
     protected final String nameOfAnimal;
     protected final Owner owner;
     protected final LocalDate birthDate;
@@ -29,7 +29,13 @@ public class Animal{
     }
 
     public Animal() {
-        this("кличка", new Owner("Хозяин"), LocalDate.now(), new Illness("Болеет"));
+        this("кличка", new Owner("Хозяин"),
+                LocalDate.now(), new Illness("Болеет"));
+    }
+
+    public Animal(String nameOfAnimal){
+        this (nameOfAnimal, new Owner("Хозяин"),
+                LocalDate.now(), new Illness("Болеет"));
     }
 
     public Animal(String nameOfAnimal, Owner owner, LocalDate birthDate, Illness illnes) {
