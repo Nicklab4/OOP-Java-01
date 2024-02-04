@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Домашнее задание 02 v.01">
-      <change afterPath="$PROJECT_DIR$/src/personnel/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personnel/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personnel/Personnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Домашнее задание 02 v.02">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/VeterinaryClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeterinaryClinic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/interfaces/IFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IFlyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/interfaces/IGoable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IGoable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/interfaces/ISwimmable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ISwimmable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707031513046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Домашнее задание 02 v.02">
+      <option name="closed" value="true" />
+      <created>1707080558042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707080558042</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +117,7 @@
     <MESSAGE value="Seminar 01 v.01" />
     <MESSAGE value="Домашнее задание 01 v.01" />
     <MESSAGE value="Домашнее задание 02 v.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 02 v.01" />
+    <MESSAGE value="Домашнее задание 02 v.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 02 v.02" />
   </component>
 </project>

@@ -11,6 +11,9 @@ public class Main {
         Dog doggie = new clients.Dog("Шарик");
         Duck duffy = new clients.Duck("ДаффиДак");
 
+        catty.propertyOfAnimal();
+        duffy.propertyOfAnimal();
+
         List<Animal> animals = new ArrayList<Animal>();
         animals.add(doggie);
         animals.add(catty);
