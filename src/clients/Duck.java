@@ -12,9 +12,9 @@ public class Duck  extends Animal implements IGoable, ISwimmable, IFlyable {
 
     @Override // перегрузка метода из класса Animal
     public void propertyOfAnimal(){
-        System.out.println("Бегает со скоростью " + this.run() + " м/с");
-        System.out.println("Плавает со скоростью " + this.swim() + " м/с");
-        System.out.println("Летает со скоростью " + this.fly() + " м/с");
+        System.out.println("Утка бегает со скоростью " + this.run() + " м/с");
+        System.out.println("Утка плавает со скоростью " + this.swim() + " м/с");
+        System.out.println("Утка летает со скоростью " + this.fly() + " м/с");
     }
 
     public double run() { return 5.0; }

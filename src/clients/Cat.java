@@ -32,7 +32,7 @@ public class Cat extends Animal implements IGoable {
 
     @Override // перегрузка метода из класса Animal
     public void propertyOfAnimal(){
-        System.out.println("Бегает со скоростью " + this.run() + " м/с");
+        System.out.println("Кошка бегает со скоростью " + this.run() + " м/с");
     }
 
     public double run() {return 10.0;}

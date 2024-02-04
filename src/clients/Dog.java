@@ -16,8 +16,8 @@ public class Dog extends Animal implements IGoable, ISwimmable {
     }
     @Override // перегрузка метода из класса Animal
     public void propertyOfAnimal(){
-        System.out.println("Бегает со скоростью " + this.run() + " м/с");
-        System.out.println("Плавает со скоростью " + this.swim() + " м/с");
+        System.out.println("Собака бегает со скоростью " + this.run() + " м/с");
+        System.out.println("Собака плавает со скоростью " + this.swim() + " м/с");
     }
 
 
