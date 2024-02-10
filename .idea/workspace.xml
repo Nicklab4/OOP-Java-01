@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Домашнее задание 02 v.03" />
+    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Домашнее задание 02 v.04">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/VeterinaryClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/VeterinaryClinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/Illness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/Illness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/clients/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/impl/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/impl/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/animal/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/impl/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/animal/IFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/impl/IFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/animal/IGoable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/impl/IGoable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/clients/animal/ISwimmable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/patients/impl/ISwimmable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/personnel/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/personnel/impl/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/personnel/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/personnel/impl/Nurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/veterinaryclinic/personnel/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/veterinaryclinic/core/personnel/Personnel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Seminar_02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Seminar__02",
+    "git-widget-placeholder": "Seminar__02__v2",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -105,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707081819554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Домашнее задание 02 v.03">
+      <option name="closed" value="true" />
+      <created>1707082726672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707082726672</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Домашнее задание 02 v.04">
+      <option name="closed" value="true" />
+      <created>1707575500366</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707575500367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +157,7 @@
     <MESSAGE value="Домашнее задание 02 v.01" />
     <MESSAGE value="Домашнее задание 02 v.02" />
     <MESSAGE value="Домашнее задание 02 v.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 02 v.03" />
+    <MESSAGE value="Домашнее задание 02 v.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 02 v.04" />
   </component>
 </project>

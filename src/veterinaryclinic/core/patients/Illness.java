@@ -1,4 +1,4 @@
-package veterinaryclinic.clients;
+package veterinaryclinic.core.patients;
 
 public class Illness {
     String nameIllness;

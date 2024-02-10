@@ -1,6 +1,7 @@
-package veterinaryclinic.personnel;
+package veterinaryclinic.core.personnel.impl;
 
-import veterinaryclinic.clients.Animal;
+import veterinaryclinic.core.patients.Animal;
+import veterinaryclinic.core.personnel.Personnel;
 
 import java.util.List;
 
