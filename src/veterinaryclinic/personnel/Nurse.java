@@ -1,8 +1,7 @@
-package personnel;
+package veterinaryclinic.personnel;
 
-import clients.Animal;
+import veterinaryclinic.clients.Animal;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public  class Nurse extends Personnel{

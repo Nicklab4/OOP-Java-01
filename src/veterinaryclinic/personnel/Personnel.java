@@ -1,8 +1,6 @@
-package personnel;
-import clients.Animal;
-import clients.Illness;
+package veterinaryclinic.personnel;
+import veterinaryclinic.clients.Animal;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Personnel {

@@ -1,6 +1,9 @@
-package clients;
+package veterinaryclinic.clients.animal;
 
-import interfaces.IGoable;
+import veterinaryclinic.clients.Animal;
+import veterinaryclinic.clients.Illness;
+import veterinaryclinic.clients.Owner;
+import veterinaryclinic.clients.animal.IGoable;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,8 @@
-import clients.*;
+import veterinaryclinic.clients.*;
+import veterinaryclinic.VeterinaryClinic;
+import veterinaryclinic.clients.animal.Cat;
+import veterinaryclinic.clients.animal.Dog;
+import veterinaryclinic.clients.animal.Duck;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +11,9 @@ public class Main {
     public static void main(String[] args) {
         VeterinaryClinic clinic = new VeterinaryClinic();
 
-        Animal catty = new clients.Cat("Барсик");
-        Dog doggie = new clients.Dog("Шарик");
-        Duck duffy = new clients.Duck("ДаффиДак");
+        Animal catty = new Cat("Барсик");
+        Dog doggie = new Dog("Шарик");
+        Duck duffy = new Duck("ДаффиДак");
 
         catty.propertyOfAnimal();
         duffy.propertyOfAnimal();

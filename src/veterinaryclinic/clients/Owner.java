@@ -1,4 +1,4 @@
-package clients;
+package veterinaryclinic.clients;
 
 public class Owner {
     String nameOwner;

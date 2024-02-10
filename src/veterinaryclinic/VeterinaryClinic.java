@@ -1,12 +1,12 @@
-// Выдача списка всех пациентов
+package veterinaryclinic;// Выдача списка всех пациентов
 // Выдача списка всего персонала
 // Выдача списка бегающих пациентов, плавающих, летающих
 // список
 
-import clients.Animal;
-import personnel.Doctor;
-import personnel.Nurse;
-import personnel.Personnel;
+import veterinaryclinic.clients.Animal;
+import veterinaryclinic.personnel.Doctor;
+import veterinaryclinic.personnel.Nurse;
+import veterinaryclinic.personnel.Personnel;
 
 import java.util.ArrayList;
 import java.util.List;
