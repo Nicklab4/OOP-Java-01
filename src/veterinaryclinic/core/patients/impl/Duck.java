@@ -1,8 +1,6 @@
-package clients;
+package veterinaryclinic.core.patients.impl;
 
-import interfaces.IFlyable;
-import interfaces.IGoable;
-import interfaces.ISwimmable;
+import veterinaryclinic.core.patients.Animal;
 
 public class Duck  extends Animal implements IGoable, ISwimmable, IFlyable {
 

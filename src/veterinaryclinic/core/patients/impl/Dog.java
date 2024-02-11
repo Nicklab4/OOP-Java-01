@@ -1,7 +1,8 @@
-package clients;
+package veterinaryclinic.core.patients.impl;
 
-import interfaces.IGoable;
-import interfaces.ISwimmable;
+import veterinaryclinic.core.patients.Illness;
+import veterinaryclinic.core.patients.Animal;
+import veterinaryclinic.core.clients.Owner;
 
 import java.time.LocalDate;
 

@@ -1,11 +1,11 @@
-package personnel;
+package veterinaryclinic.core.personnel.impl;
 
-import clients.Animal;
+import veterinaryclinic.core.patients.Animal;
+import veterinaryclinic.core.personnel.Personnel;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public  class Nurse extends Personnel{
+public  class Nurse extends Personnel {
     private String profession = "Медсестра";
 
     public Nurse(String nameOfNurse) {
