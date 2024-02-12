@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="Семинар 04 v.01">
-      <change afterPath="$PROJECT_DIR$/src/list/LinkedListMain.java" afterDir="false" />
+    <list default="true" id="8f3de48f-5df3-4b5b-a7aa-8710ce9401be" name="Changes" comment="HomeWork 04 v.02">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/LinkedListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/core/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/core/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/core/impl/GBArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/core/impl/GBArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707773803325</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HomeWork 04 v.02">
+      <option name="closed" value="true" />
+      <created>1707775436430</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707775436430</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +207,7 @@
     <MESSAGE value="Домашнее задание 03 v.01" />
     <MESSAGE value="Домашнее задание 03 v.02" />
     <MESSAGE value="Семинар 04 v.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Семинар 04 v.01" />
+    <MESSAGE value="HomeWork 04 v.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork 04 v.02" />
   </component>
 </project>

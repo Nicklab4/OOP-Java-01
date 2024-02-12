@@ -1,5 +1,7 @@
 package list.core;
 
+import list.core.util.ArrayIterator;
+
 import java.util.Iterator;
 
 public class LinkedList<T> implements GBList<T>{
@@ -63,14 +65,33 @@ public class LinkedList<T> implements GBList<T>{
 
     @Override
     public void remove(int index) {
+        Node<T> node = tail;
+        while(index-1 >= 0 ){
+            node = node.previous;
+            index--;
+        }
 
+        node.next.previous = node.previous.next;
+        size--;
+
+        //Node<T> tempPrev = node.next;
+        //Node<T> tempNext = node.previous;
+
+        //tempPrev.next = tempNext;
+        //tempNext.previous = tempPrev;
+        //node.next = null;
+        //node.previous = null;
+
+        //System.out.println(tempPrev.next);
+        //System.out.println(node.value);
+        //System.out.println(tempNext.previous);
     }
 
     @Override
     public T get(int index) {
-        Node<T> node = head;
-        while(index >= 0 ){
-            node = node.next;
+        Node<T> node = tail;
+        while(index-1 >= 0 ){
+            node = node.previous;
             index--;
         }
         return node.value;
@@ -83,20 +104,29 @@ public class LinkedList<T> implements GBList<T>{
 
     @Override
     public Iterator<T> iterator() {
+//        int index= 0 ;
+//        Node<T> node = tail;
+//        while(index != size){
+//            index++;
+//        }
         return null;
     }
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder("[");
+
         int index= 0 ;
-        Node<T> node = head;
+        Node<T> node = tail;
         while(index != size){
-            builder.append(head.value).append(", ");
+            builder.append(node.value).append(", ");
             index++;
-            head = node.previous;
+            node = node.previous;
         }
 
+        if (builder.length() == 1) return "[]";
+        builder.deleteCharAt(builder.length()-1).deleteCharAt(builder.length()-1);
+        builder.append("]");
         return builder.toString();
     }
 }
