@@ -15,6 +15,18 @@ public class Pharmacy2 implements Iterable<Component> {
         {this.components.add(c);}
     }
 
+
+//    @Override
+//    public boolean hasNext() {
+//        return (index < components.size());
+//    }
+//
+//    @Override
+//    public Component next() {
+//        return components.get(index++);
+//    }
+
+
     @Override
     public Iterator<Component> iterator() {
         return new Iterator<Component>() { // Анонимный класс
@@ -29,14 +41,4 @@ public class Pharmacy2 implements Iterable<Component> {
             }
         };
     }
-
-//    @Override
-//    public boolean hasNext() {
-//        return (index < components.size());
-//    }
-//
-//    @Override
-//    public Component next() {
-//        return components.get(index++);
-//    }
 }

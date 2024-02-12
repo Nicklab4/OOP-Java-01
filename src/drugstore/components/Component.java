@@ -18,8 +18,10 @@ public abstract class Component implements Comparable<Component> {
 
     @Override
     public int compareTo(Component o) {
-        return Integer.compare(power, o.power);  // три варианта организации сравнения
+        return Integer.compare(power, o.power);
 
+
+        // три варианта организации сравнения
 //        return this.power - o.power;
 
 
