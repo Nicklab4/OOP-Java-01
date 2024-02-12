@@ -10,6 +10,7 @@ public class GBArrayList<T> implements GBList<T> {
     private T[] values;
     private int capacity;
 
+
     @SuppressWarnings("unchecked")
     public GBArrayList() {
         this.size = 0;

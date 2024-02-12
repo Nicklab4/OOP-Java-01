@@ -68,8 +68,12 @@ public class LinkedList<T> implements GBList<T>{
 
     @Override
     public T get(int index) {
-        //while(){}
-        return null;
+        Node<T> node = head;
+        while(index >= 0 ){
+            node = node.next;
+            index--;
+        }
+        return node.value;
     }
 
     @Override
@@ -84,6 +88,15 @@ public class LinkedList<T> implements GBList<T>{
 
     @Override
     public String toString() {
+        StringBuilder builder = new StringBuilder("[");
+        int index= 0 ;
+        Node<T> node = head;
+        while(index != size){
+            builder.append(head.value).append(", ");
+            index++;
+            head = node.previous;
+        }
 
+        return builder.toString();
     }
 }
