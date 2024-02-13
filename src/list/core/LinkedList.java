@@ -44,15 +44,14 @@ public class LinkedList<T> implements GBList<T>{
 
     @Override
     public void add(T elem) {
-        Node<T> first = head;
+        Node<T> first = head;       // Создаём первый узел и помещаем в него головной элемент
+                                    // Создаём второй узел взаимосвязанный с первым
         Node<T> newNode = new Node<T>(null, elem , head);
-        head = newNode;
+        head = newNode;             //
         if (first == null)
             tail = newNode;
         else first.previous= newNode;
         size++;
-//
-//
 //
 //        if (head == null)
 //            head = new Node<T>(elem);
@@ -64,26 +63,22 @@ public class LinkedList<T> implements GBList<T>{
     }
 
     @Override
-    public void remove(int index) {
+    public void remove(int index) {             // Удаление элемента
         Node<T> node = tail;
 
-        if (index+1 == size){
-
-            node.previous.next = node.next;
-
+        if (index+1 == size){                   // Решение для случая когда индекс элемента максимальный,
+            node.previous.next = node.next;     // то-есть для крайнего правого элемента
         }
-        else if (index == 0){
-            node = node.previous;
 
+        else if (index == 0){                   // Решение для случая когда индекс равен нулю
+            node = node.previous;               // то-есть для крайнего левого элемента
             node.next = null;
             tail = node;
-
         }
-        else {
 
-
-            while(index > 0 ){
-                node = node.previous;
+        else {                                  // Решение для случая когда индекс находится между
+            while(index > 0 ){                  // левыми и правыми элементами, то есть больше ноля
+                node = node.previous;           // и меньше максимального элемента
                 index--;
             }
 
@@ -91,8 +86,7 @@ public class LinkedList<T> implements GBList<T>{
             node.previous.next = node.next;
         }
 
-
-        size--;
+        size--;                                 // Уменьшение размера LinkedList после удаления элемента
     }
 
     @Override
