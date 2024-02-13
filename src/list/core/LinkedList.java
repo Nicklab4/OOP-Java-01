@@ -5,7 +5,7 @@ import list.core.util.ArrayIterator;
 import java.util.Iterator;
 
 public class LinkedList<T> implements GBList<T>{
-    private int size;
+    private int size =0;
     private Node<T> head;
     private Node<T> tail;
 
@@ -66,25 +66,33 @@ public class LinkedList<T> implements GBList<T>{
     @Override
     public void remove(int index) {
         Node<T> node = tail;
-        while(index-1 >= 0 ){
-            node = node.previous;
-            index--;
+
+        if (index == size){
+            node.next.previous = null;
+            node.previous.next = node.next;
+
         }
 
-        node.next.previous = node.previous.next;
+        else if (index == 0){
+
+
+            node.previous.next = node.next;
+
+        }
+        else {
+
+
+            while(index > 0 ){
+                node = node.previous;
+                index--;
+            }
+
+            node.next.previous = node.previous;
+            node.previous.next = node.next;
+        }
+
+
         size--;
-
-        //Node<T> tempPrev = node.next;
-        //Node<T> tempNext = node.previous;
-
-        //tempPrev.next = tempNext;
-        //tempNext.previous = tempPrev;
-        //node.next = null;
-        //node.previous = null;
-
-        //System.out.println(tempPrev.next);
-        //System.out.println(node.value);
-        //System.out.println(tempNext.previous);
     }
 
     @Override

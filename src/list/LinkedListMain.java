@@ -11,9 +11,10 @@ public class LinkedListMain {
         lList.add(30);
         lList.add(40);
 
-        System.out.println(lList.get(3));
+
         System.out.println(lList);
-        lList.remove(2);
+        System.out.println(lList.get(3));
+        lList.remove(3);
         System.out.println(lList);
     }
 }
