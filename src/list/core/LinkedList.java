@@ -67,16 +67,16 @@ public class LinkedList<T> implements GBList<T>{
     public void remove(int index) {
         Node<T> node = tail;
 
-        if (index == size){
-            node.next.previous = null;
+        if (index+1 == size){
+
             node.previous.next = node.next;
 
         }
-
         else if (index == 0){
+            node = node.previous;
 
-
-            node.previous.next = node.next;
+            node.next = null;
+            tail = node;
 
         }
         else {
