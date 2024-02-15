@@ -106,12 +106,25 @@ public class LinkedList<T> implements GBList<T>{
 
     @Override
     public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            int count = 0;
+
+            @Override
+            public boolean hasNext() {
+                return count < size;
+            }
+
+            @Override
+            public T next() {
+                return get(count++);
+            }
+        };
 //        int index= 0 ;
 //        Node<T> node = tail;
 //        while(index != size){
 //            index++;
 //        }
-        return null;
+//        return null;
     }
 
     @Override
