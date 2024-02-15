@@ -1,14 +1,29 @@
 # Объектно-ориентированное программирование
 
+
+## 2024.02.15 Домашнее задание №3
+Выполнено домашнее задание №3. Оно основано на примере который разбирался на занятии №4.
+
+Единственное измеение которое было внесено - изменён способ подсчёта силы лекарства:
+- Вода, при подсчёте силы лекарства, учитывается только одни раз.
+- При подсчёте массы, как и в разобранном примере, учитывается вес всех компонентов.
+
+Результат выполнения программы:
+```
+Список препаратов: 
+[Pharm Preparat{fullPower=20, fullWeight=3}, Pharm Preparat{fullPower=15, fullWeight=12}, Pharm Preparat{fullPower=7, fullWeight=11}, Pharm Preparat{fullPower=7, fullWeight=41}]
+Список препаратов отсортированный по силе: 
+[Pharm Preparat{fullPower=7, fullWeight=11}, Pharm Preparat{fullPower=7, fullWeight=41}, Pharm Preparat{fullPower=15, fullWeight=12}, Pharm Preparat{fullPower=20, fullWeight=3}]
+Список препаратов отсоритрованный по массе: 
+[Pharm Preparat{fullPower=20, fullWeight=3}, Pharm Preparat{fullPower=7, fullWeight=11}, Pharm Preparat{fullPower=15, fullWeight=12}, Pharm Preparat{fullPower=7, fullWeight=41}]
+```
+
 ## 2024.02.12 Домашнее задание №4
 Создан класс **LinkedList** наследующий интерфейс **GBList**
 
 Реализованы методы **add(T elem)**, **remove(int index)**, **get(int index)**, **size()**, **toString()**
 
 Не реализован метод **iterator()** - не хватило времени. Дополню его как только будет ещё свободное время.
-
-
-
 
 
 ## 2024.02.10 Домашнее задание №2
