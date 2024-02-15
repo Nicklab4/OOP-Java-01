@@ -3,6 +3,74 @@
 
 ## 2024.02.15 Домашнее задание №4
 Дополнено реализацией метода **iterator()**
+```
+@Override
+    public void add(T elem) {
+        Node<T> first = head;       // Создаём первый узел и помещаем в него головной элемент
+                                    // Создаём второй узел взаимосвязанный с первым
+        Node<T> newNode = new Node<T>(null, elem , head);
+        head = newNode;             //
+        if (first == null)
+            tail = newNode;
+        else first.previous= newNode;
+        size++;
+    }
+
+    @Override
+    public void remove(int index) {             // Удаление элемента по индексу
+        Node<T> node = tail;
+
+        if (index+1 == size){                   // Решение для случая когда индекс элемента максимальный,
+            node.previous.next = node.next;     // то-есть для крайнего правого элемента
+        }
+
+        else if (index == 0){                   // Решение для случая когда индекс равен нулю
+            node = node.previous;               // то-есть для крайнего левого элемента
+            node.next = null;
+            tail = node;
+        }
+
+        else {                                  // Решение для случая когда индекс находится между
+            while(index > 0 ){                  // левыми и правыми элементами, то есть больше ноля
+                node = node.previous;           // и меньше максимального элемента
+                index--;
+            }
+
+            node.next.previous = node.previous;
+            node.previous.next = node.next;
+        }
+
+        size--;                                 // Уменьшение размера LinkedList после удаления элемента
+    }
+
+    @Override
+    public T get(int index) {
+        Node<T> node = tail;
+        while(index-1 >= 0 ){
+            node = node.previous;
+            index--;
+        }
+        return node.value;
+    }
+
+    @Override                                // Реализацию скопировал из видео.
+    public Iterator<T> iterator() {          // Оказалось всё достаточно тривиально.
+        return new Iterator<T>() {
+            int count = 0;
+
+            @Override
+            public boolean hasNext() {
+                return count < size;
+            }
+
+            @Override
+            public T next() {
+                return get(count++);
+            }
+        };
+    }
+```
+
 
 Результат выполнения программы:
 ```
