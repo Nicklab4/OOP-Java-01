@@ -25,15 +25,31 @@ public class DrugMain  {
         Pharmacy2 p3 = new Pharmacy2();
         p3.addComponents(penicillin, azitronite);
 
+        Pharmacy2 p4 = new Pharmacy2();
+        p4.addComponents(penicillin, water, water, water, water);
 
-        List<Component> components = new ArrayList<Component>();
-        components.add(azitronite);
-        components.add(water);
-        components.add(penicillin);
-        System.out.println(components);
+        List<Pharmacy2> medicines = new ArrayList<>();
+        medicines.add(p3);
+        medicines.add(p1);
+        medicines.add(p2);
+        medicines.add(p4);
 
-        Collections.sort(components);
-        System.out.println(components);
+        System.out.println("Список препаратов: \n" + medicines);
+        Collections.sort(medicines);
+        System.out.println("Список препаратов отсортированный по силе: \n" + medicines);
+        Collections.sort(medicines, (a, b ) -> Integer.compare(a.getFullWeight(), b.getFullWeight()));
+        System.out.println("Список препаратов отсоритрованный по массе: \n"+ medicines);
+
+
+
+//        List<Component> components = new ArrayList<Component>();
+//        components.add(azitronite);
+//        components.add(water);
+//        components.add(penicillin);
+//        System.out.println(components);
+//
+//        Collections.sort(components);
+//        System.out.println(components);
 
 //        Iterator<Component> iterator = p1;
 //
@@ -41,9 +57,9 @@ public class DrugMain  {
 //            System.out.println(p1.next().toString());
 //        }
 
-        for (Component c : p2) {
-            System.out.println(" " + c);
-        }
+//        for (Component c : p2) {
+//            System.out.println(" " + c);
+//        }
 
     }
 }
